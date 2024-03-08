@@ -20,7 +20,7 @@ Here's a quick list of some interesting things about me:
 - I've been married to my wife Blair for 2 years <img src="./assets/My_Wife_And_Daughter.jpg" height="230px" style="display: block">
 
 - I have the unofficial record for the fastest person to eat a 3 way at Skyline Chili (44 seconds) :muscle:
-- II was a cheerleader in highschool and coached cheerleading afterwards. <video src="./assets/Flips.MOV" height="230px" style="display: block" controls>
+- I was a cheerleader in highschool and coached cheerleading afterwards. <video src="./assets/Flips.MOV" height="230px" style="display: block" controls muted>
 
 ## Cool Code Snipet
 
