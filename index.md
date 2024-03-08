@@ -1,4 +1,4 @@
-# My Personal Blog
+# Nathan's Personal Blog
 
 ## Index
 
