@@ -22,8 +22,7 @@ Here's a quick list of some interesting things about me:
 
 ## Cool Code Snipet
 
-```
-javascript
+```javascript
 function highFive(nathanDidAGoodJobOnHisBlog) {
     if (nathanDidAGoodJobOnHisBlog) {
         return "High Five!";
