@@ -14,10 +14,10 @@ I'm very eager to learn Python and Django, I know it's a very marketable skillse
 Heres a quick list of some interesting things about me:
 * I have a 1 year old daughter named Blake.
 * I've been married to my wife Blair for 2 years.
+<img src="./assets/My_Wife_And_Daughter.jpg" height="230px" style="display: block">
 * I have the unofficial record for the fastest person to eat a 3 way at Skyline Chili (44 seconds) :muscle:
 * I was a cheerleader in highschool and coached cheerleading afterwards.
-
-<video src="./assets/IMG_1962.MOV" controls>
+<video src="./assets/Flips.MOV" height="230px" style="display: block" controls>
 
 ## Cool Code Snipet
 
