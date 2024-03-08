@@ -20,7 +20,7 @@ Here's a quick list of some interesting things about me:
 - I have the unofficial record for the fastest person to eat a 3 way at Skyline Chili (44 seconds) 💪
 - I was a cheerleader in highschool and coached cheerleading afterwards. <video src="./assets/Flips.MOV" height="230px" style="display: block" controls muted>
 
-## Cool Code Snipet
+## Cool Code Snippet
 
 ```javascript
 function highFive(nathanDidAGoodJobOnHisBlog) {
