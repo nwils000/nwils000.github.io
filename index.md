@@ -27,15 +27,15 @@ Here's a quick list of some interesting things about me:
 ## Cool Code Snipet
 
 ```
-function highFive() {
+function highFive(nathanDidAGoodJobOnHisBlog) {
     if (nathanDidAGoodJobOnHisBlog) {
-        return ("High Five!")
-    }
-    else {
-        return ("*Nathan Cries*")
+        return "High Five!";
+    } else {
+        return "*Nathan Cries*";
     }
 }
-viewer.action(highFive())
+
+// console.log(highFive(true)) || console.log(highFive(false))
 ```
 
 
