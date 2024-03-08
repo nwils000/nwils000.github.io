@@ -1,5 +1,3 @@
-# Nathan's Personal Blog
-
 ## Index
 
 - [First Week](#was-your-first-week-what-you-expected-why-why-not)
