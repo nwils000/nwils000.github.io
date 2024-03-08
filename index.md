@@ -1,4 +1,8 @@
 # My Personal Blog
+### Index
+* [First Week](#was-your-first-week-what-you-expected-why-why-not)
+* [Excited About](#what-are-you-excited-or-eager-to-learn-more-about)
+* [About me](#what-is-something-about-you-that-can-only-be-learned-by-reading-this-blog)
 
 ## Was your first week what you expected? Why? Why not?
 Honestly I had no idea what to expect. I've been pleased by the structure and flow of the work so far. I have learned a lot of things I did not know before. I expected to learn a lot I just wasn't sure exactly how it was going to happen!
@@ -12,3 +16,17 @@ Heres a quick list of some interesting things about me:
 * I've been married to my wife Blair for 2 years.
 * I have the unofficial record for the fastest person to eat a 3 way at Skyline Chili (44 seconds) :muscle:
 * I was a cheerleader in highschool and coached cheerleading afterwards.
+
+## Cool Code Snipet
+
+```
+function highFive() {
+    if (nathanDidAGoodJobOnHisBlog) {
+        return ("High Five!")
+    }
+    else {
+        return ("*Nathan Cries*")
+    }
+}
+viewer.action(highFive())
+```
