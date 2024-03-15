@@ -1,5 +1,4 @@
-## Index
-
+# Index
 - [First Week](#first-week)
 - [Second Week](#second-week)
 
