@@ -5,6 +5,7 @@
 
 # First Week
 
+
 ## Was your first week what you expected? Why? Why not?
 Honestly, I had no idea what to expect. I've been pleased by the structure and flow of the work so far. I have learned a lot of things I did not know before. I expected to learn a lot; I just wasn't sure exactly how it was going to happen!
 
@@ -36,6 +37,7 @@ function highFive(nathanDidAGoodJobOnHisBlog) {
 
 
 # Second Week
+
 
 ## What is something you wish you could do but currently do not have the coding skills to accomplish?
 There’s a lot I wish I could do but, when it comes to specifically HTML and CSS, I wish I knew more about what was going on under the hood so that when I run into weird errors or problems, I could better troubleshoot them.
