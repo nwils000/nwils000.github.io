@@ -1,0 +1,48 @@
+@import './normalize.css';
+
+.cover-image-container {
+  position: relative;
+  height: 19rem;
+  width: 23rem;
+  margin: 3rem;
+}
+
+.cover-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 1;
+}
+
+.cover-image-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Workaround to transition to a gradient */
+
+.cover-image-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.cover-image-overlay:hover::before {
+  opacity: 1;
+}
