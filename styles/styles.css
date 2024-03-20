@@ -12,6 +12,10 @@ body {
   font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.cards-container {
+  display: flex;
+}
+
 .blog-card {
   margin: 5rem;
   width: 23rem;
