@@ -15,8 +15,32 @@ body {
 .blog-card {
   margin: 5rem;
   width: 23rem;
-  height: 31rem;
+  height: 29rem;
   background: white;
+  position: relative;
+}
+
+.card-content {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1rem;
+  color: rgb(238, 132, 51);
+}
+
+.card-content p:first-of-type {
+  font-size: 1.28rem;
+  line-height: 0.6;
+  margin-top: 1.2rem;
+  font-weight: 300;
+}
+
+.card-content p:nth-of-type(2) {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .cover-image-container {
@@ -34,16 +58,14 @@ body {
 }
 
 .cover-image-overlay {
-  height: 100%;
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   z-index: 2;
 }
-
-/* Workaround to transition to a gradient */
 
 .cover-image-overlay::before {
   content: '';
@@ -54,13 +76,17 @@ body {
   bottom: 0;
   background: linear-gradient(
     0deg,
-    rgba(9, 9, 121, 1) 0%,
+    rgba(9, 9, 121, 0.588) 0%,
     rgba(0, 212, 255, 0.1) 100%
   );
   opacity: 0;
   transition: opacity 0.5s;
 }
 
-.cover-image-overlay:hover::before {
+.blog-card:hover {
+  cursor: pointer;
+}
+
+.blog-card:hover .cover-image-overlay::before {
   opacity: 1;
 }
