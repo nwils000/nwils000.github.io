@@ -1,4 +1,4 @@
-# Nathan's Development Journey Blog Index
+# Blog Index
 
 This blog documents my path from a beginner in front-end web
 development to mastering full-stack development, beginning with my
