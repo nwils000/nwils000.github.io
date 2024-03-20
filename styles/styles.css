@@ -1,19 +1,46 @@
 @import './normalize.css';
 
 html {
-  background: #f3f3f3;
-}
-
-h1 {
-  font-family: 'Lora', 'Times New Roman', Times, serif;
+  background: rgb(243, 243, 243);
 }
 
 body {
-  font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Patrick Hand', cursive;
 }
 
+/* Header Styles */
+header {
+  background: white;
+  padding: 3.8rem 0 1.8rem 5rem;
+}
+
+header h1 {
+  font-family: 'Borel', cursive;
+  margin: 0;
+  color: rgb(238, 132, 51);
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+/* END header styles */
+
+/* Main Styles */
+
+main {
+  background: linear-gradient(
+    0deg,
+    rgba(243, 243, 243, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* END main styles */
+
+/* Card Styles */
+
 .cards-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .blog-card {
@@ -26,16 +53,16 @@ body {
 
 .card-content {
   padding-left: 2rem;
-  padding-top: 1rem;
+  padding-top: 0.6rem;
 }
 
 .card-content h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgb(238, 132, 51);
 }
 
 .card-content p:first-of-type {
-  font-size: 1.28rem;
+  font-size: 1.5rem;
   line-height: 0.6;
   margin-top: 1.2rem;
   font-weight: 300;
@@ -44,7 +71,7 @@ body {
 .card-content p:nth-of-type(2) {
   margin-top: 2rem;
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .cover-image-container {
@@ -94,3 +121,5 @@ body {
 .blog-card:hover .cover-image-overlay::before {
   opacity: 1;
 }
+
+/* END card styles */
