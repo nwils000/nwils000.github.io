@@ -9,5 +9,5 @@ eyes.
 > "Live as if you were to die tomorrow. Learn as if you were to live
 > forever." - Mahatma Gandhi
 
-- [First Week: The Beginning](first-week.html)
-- [Second Week: Gaining Momentum](second-week.html)
+- [First Week: The Beginning](./blog-entries/week-1.html)
+- [Second Week: Gaining Momentum](./blog-entries/week-2.html)
