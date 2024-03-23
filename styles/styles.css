@@ -138,7 +138,7 @@ main {
   background: linear-gradient(
     0deg,
     rgba(238, 132, 51, 0.56) 0%,
-    rgba(238, 132, 51, 0.14) 100%
+    rgba(238, 132, 51, 0.094) 100%
   );
   opacity: 0;
   transition: opacity 0.5s;
