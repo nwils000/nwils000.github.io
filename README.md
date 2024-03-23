@@ -11,3 +11,4 @@ eyes.
 
 - [First Week: The Beginning](./blog-entries/week-1.html)
 - [Second Week: Gaining Momentum](./blog-entries/week-2.html)
+- [Third Week: Starting to Function](./blog-entries/week-3.html)
