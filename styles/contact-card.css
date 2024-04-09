@@ -1,0 +1,100 @@
+body {
+  background: url(../assets/sheets.jpg);
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0.9rem;
+}
+
+.card-wrapper {
+  display: relative;
+}
+
+.profile-pic:hover ~ .image-overlay,
+.image-overlay:hover {
+  opacity: 1;
+  transition: 0.4s ease-in;
+}
+
+.image-overlay {
+  opacity: 0;
+  width: 12rem;
+  height: 12rem;
+  background-color: rgba(177, 96, 34, 0.795);
+  position: absolute;
+  top: 4.05rem;
+  left: calc(50vw - 6rem);
+  border-radius: 100%;
+  transition: 0.4s ease-in;
+}
+
+.image-overlay p {
+  position: relative;
+  bottom: 3rem;
+  font-family: 'Luxurious Script', cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.profile-pic {
+  display: block;
+  width: 12rem;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 2.4rem;
+  border: solid 1px rgb(179, 155, 22);
+  animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-stuff {
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 17px;
+  margin: 0.3rem;
+  max-width: 20rem;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 1rem;
+  border: solid 1px black;
+}
+
+.icon-flex:first-of-type {
+  padding-top: 1rem;
+}
+
+.icon-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.7rem;
+}
+
+.icon-flex img {
+  width: 2.85rem;
+}
