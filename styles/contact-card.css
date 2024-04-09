@@ -88,3 +88,7 @@ hr {
 .icon-flex img {
   width: 2.85rem;
 }
+
+.icon-flex img:hover {
+  cursor: pointer;
+}
